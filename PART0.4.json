@@ -1,0 +1,10 @@
+  browser->>+server: POST https://studies.cs.helsinki.fi/exampleapp/new_note\n   
+  server->>+browser: HTML\n
+  browser->>+server: GET https://studies.cs.helsinki.fi/exampleapp/notes\n   
+  server->>+browser: HTML\n    
+  browser->>+server: GET https://studies.cs.helsinki.fi/exampleapp/main.css\n   
+  server->>+browser: CSS\n 
+  browser->>+server: GET https://studies.cs.helsinki.fi/exampleapp/main.js\n  
+  server->>+browser: JAVASCRIPT\n 
+  browser->>+server: GET https://studies.cs.helsinki.fi/exampleapp/data.json\n   
+  server->>+browser: JSON\n    
